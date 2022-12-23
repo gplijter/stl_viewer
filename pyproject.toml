@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "stl-viewer"
+version = "0.1.0"
+description = ""
+authors = ["Gerben Plijter <gplijter@umaco.nl>"]
+readme = "README.md"
+packages = [{include = "stl_viewer"}]
+
+[tool.poetry.dependencies]
+python = "=3.10.7"
+easygui = "=0.98.3"
+vtk = "=9.2.2"
+pyinstaller = "^5.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
